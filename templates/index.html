@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>TOGA</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <!-- <link href="{{ url_for('static', filename='img/styles.css') }}static/img/favicon.png" rel="icon"> -->
+  <link href="static/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='vendor/aos/aos.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Impact - v1.1.1
+  * Template URL: https://bootstrapmade.com/impact-bootstrap-business-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+  <header id="header" class="header d-flex align-items-center">
+
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1>TOGA<span>.</span></h1>
+      </a>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#team">Team</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+  </header><!-- End Header -->
+  <!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero">
+    <div class="container position-relative">
+      <div class="row gy-5" data-aos="fade-in">
+        <div class="col-lg-7 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
+          <h2>Welcome to <span>Xperience One</span></h2>
+          <h4 style="color: aliceblue; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+          ;">Sebelum menyembuhkan orang lain, sembuhkanlah diri sendiri dulu.</h4>
+          <div class="d-flex justify-content-center justify-content-lg-start mt-4">
+            <a href="#project" class="btn-get-started">Get Started</a>
+            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2">
+          <img src="static/img/hero-img.svg" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="100">
+        </div>
+      </div>
+    </div>
+
+    <div class="icon-boxes position-relative">
+      <div class="container position-relative">
+        <div class="row gy-4 mt-5">
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-asterisk"></i></div>
+              <h4 class="title"><a class="stretched-link">Treatment</a></h4>
+            </div>
+          </div>
+          <!--End Icon Box -->
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-activity"></i></div>
+              <h4 class="title"><a class="stretched-link">Health</a></h4>
+            </div>
+          </div>
+          <!--End Icon Box -->
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-heart-pulse"></i></div>
+              <h4 class="title"><a class="stretched-link">Healing</a></h4>
+            </div>
+          </div>
+          <!--End Icon Box -->
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-person-heart"></i></div>
+              <h4 class="title"><a class="stretched-link">Relaxing</a></h4>
+            </div>
+          </div>
+          <!--End Icon Box -->
+
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </section>
+  <!-- End Hero Section -->
+
+  <main id="main">
+    <!-- ======= Our Projects Section ======= -->
+    <section id="project" class="services sections-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Our Projects</h2>
+          <p>Masukan Penyakit yang dirasa</p>
+        </div>
+        <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg col-md text-center">
+            <div class="service-item position-relative ">
+              <form action="{{ url_for('predict')}}" method="post">
+              <div class="container-fluid col-lg-5 mt-4">
+              <tr class="mb-5">
+                <td>
+                  <select class="form-select" aria-label="Default select example" label="penyakit1" name="penyakit1" required>
+                    <option value="" selected disabled>Pilih Penyakit Pertama</option>
+                    <option value="0">Batuk</option>
+                    <option value="1">Nafsu Makan</option>
+                    <option value="2">Sakit Perut</option>
+                    <option value="3">Sakit Kepala</option>
+                    <option value="4">Perut Kembung</option>
+                    <option value="5">Radang Amandel</option>
+                    <option value="6">Asma</option>
+                    <option value="7">Sembelit</option>
+                    <option value="8">Masuk Angin</option>
+                    <option value="9">Sariawan</option>
+                    <option value="10">Maag</option>
+                    <option value="11">Demam</option>
+                    <option value="12">Muntah</option>
+                    <option value="13">Bau Mulut</option>
+                    <option value="14">Sakit Mata</option>
+                    <option value="15">Kulit Gatel</option>
+                    <option value="16">Jerawat</option>
+                    <option value="17">Pendarahan Gusi</option>
+                    <option value="18">Mimisan</option>
+        <!-- {#            <option value="19">menambah stamina</option>#}
+        {#            <option value="20">kemandulan</option>#}
+        {#            <option value="21">infeksi luka</option>#}
+        {#            <option value="22">ejakulasi dini</option>#}
+        {#            <option value="23">bau badan</option>#}
+        {#            <option value="24">kencing manis</option>#}
+        {#            <option value="25">tifus</option>#}
+        {#            <option value="26">malaria</option>#}
+        {#            <option value="27">syphilis</option>#}
+        {#            <option value="28">asam urat</option>#}
+        {#            <option value="29">kolestrol</option>#}
+        {#            <option value="30">diabetes</option>#}
+        {#            <option value="31">sesak nafas</option>#}
+        {#            <option value="32">anemia</option>#}
+        {#            <option value="33">mempercepat penyembuhan luka</option>#}
+        {#            <option value="34">anemia</option>#}
+        {#            <option value="35">darah rendah</option>#}
+        {#            <option value="36">masalah haid</option>#}
+        {#            <option value="37">kudis</option>#}
+        {#            <option value="38">cacingan</option>#}
+        {#            <option value="29">rambut rontok</option>#}
+        {#            <option value="40">ketombe</option>#}
+        {#            <option value="41">peredaran darah kurang lancar</option>#}
+        {#            <option value="42">radang</option>#}
+        {#            <option value="43">darah tinggi</option>#}
+        {#            <option value="44">gangguan pencernaan anak</option>#}
+        {#            <option value="45">nyeri pinggang</option>#} -->
+                </select>
+                </td>
+              </tr>
+              </div>
+              <br>
+              <div class="container-fluid col-lg-5">
+              <tr class="mb-3 col-lg-6">
+                <td>
+                  <select class="form-select" aria-label="Default select example" label="penyakit2" name="penyakit2" required>
+                    <option value="" selected disabled>Pilih Penyakit Pertama</option>
+                    <option value="0">Batuk</option>
+                    <option value="1">Nafsu Makan</option>
+                    <option value="2">Sakit Perut</option>
+                    <option value="3">Sakit Kepala</option>
+                    <option value="4">Perut Kembung</option>
+                    <option value="5">Radang Amandel</option>
+                    <option value="6">Asma</option>
+                    <option value="7">Sembelit</option>
+                    <option value="8">Masuk Angin</option>
+                    <option value="9">Sariawan</option>
+                    <option value="10">Maag</option>
+                    <option value="11">Demam</option>
+                    <option value="12">Muntah</option>
+                    <option value="13">Bau Mulut</option>
+                    <option value="14">Sakit Mata</option>
+                    <option value="15">Kulit Gatel</option>
+                    <option value="16">Jerawat</option>
+                    <option value="17">Pendarahan Gusi</option>
+                    <option value="18">Mimisan</option>
+        <!-- {#            <option value="19">menambah stamina</option>#}
+        {#            <option value="20">kemandulan</option>#}
+        {#            <option value="21">infeksi luka</option>#}
+        {#            <option value="22">ejakulasi dini</option>#}
+        {#            <option value="23">bau badan</option>#}
+        {#            <option value="24">kencing manis</option>#}
+        {#            <option value="25">tifus</option>#}
+        {#            <option value="26">malaria</option>#}
+        {#            <option value="27">syphilis</option>#}
+        {#            <option value="28">asam urat</option>#}
+        {#            <option value="29">kolestrol</option>#}
+        {#            <option value="30">diabetes</option>#}
+        {#            <option value="31">sesak nafas</option>#}
+        {#            <option value="32">anemia</option>#}
+        {#            <option value="33">mempercepat penyembuhan luka</option>#}
+        {#            <option value="34">anemia</option>#}
+        {#            <option value="35">darah rendah</option>#}
+        {#            <option value="36">masalah haid</option>#}
+        {#            <option value="37">kudis</option>#}
+        {#            <option value="38">cacingan</option>#}
+        {#            <option value="29">rambut rontok</option>#}
+        {#            <option value="40">ketombe</option>#}
+        {#            <option value="41">peredaran darah kurang lancar</option>#}
+        {#            <option value="42">radang</option>#}
+        {#            <option value="43">darah tinggi</option>#}
+        {#            <option value="44">gangguan pencernaan anak</option>#}
+        {#            <option value="45">nyeri pinggang</option>#} -->
+                </select>
+              </td>
+              </tr>
+              </div>
+              <br>
+          <br>
+          <br>
+
+        <!-- Button Submit -->
+        <div>
+          <button type="submit" class="btn btn-success">Rekomendasi</button>
+        </div>
+        <!-- End of Button Submit -->
+      </form>
+      <div class="mt-5 text-center">
+        <h3 class="">Tanaman yang direkomendasikan adalah :</h2>
+          <br>
+          <br>
+          <br>
+          {% if hasil_prediksi %}
+          <h3 class="text-center"><span class="" style="text-transform: uppercase;">{{hasil_prediksi}}</span></h3>
+          {% endif %}
+      </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+    </section><!-- End Our Services Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="about" class="portfolio sections-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>About</h2>
+          <p>Quam sed id excepturi ccusantium dolorem ut quis dolores nisi llum nostrum enim velit qui ut et autem uia reprehenderit sunt deleniti</p>
+        </div>
+
+        <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order" data-aos="fade-up" data-aos-delay="100">
+
+          <div>
+            <ul class="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-product">Product</li>
+              <li data-filter=".filter-branding">Branding</li>
+              <li data-filter=".filter-books">Books</li>
+            </ul><!-- End Portfolio Filters -->
+          </div>
+
+          <div class="row gy-4 portfolio-container">
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <a href="static/img/portfolio/app-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="static/img/portfolio/app-1.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">App 1</a></h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-product">
+              <div class="portfolio-wrap">
+                <a href="static/img/portfolio/product-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="static/img/portfolio/product-1.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Product 1</a></h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-branding">
+              <div class="portfolio-wrap">
+                <a href="static/img/portfolio/branding-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="static/img/portfolio/branding-1.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Branding 1</a></h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-books">
+              <div class="portfolio-wrap">
+                <a href="static/img/portfolio/books-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="static/img/portfolio/books-1.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Books 1</a></h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <a href="static/img/portfolio/app-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="static/img/portfolio/app-2.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">App 2</a></h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-product">
+              <div class="portfolio-wrap">
+                <a href="static/img/portfolio/product-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="static/img/portfolio/product-2.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Product 2</a></h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-branding">
+              <div class="portfolio-wrap">
+                <a href="static/img/portfolio/branding-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="static/img/portfolio/branding-2.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Branding 2</a></h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-books">
+              <div class="portfolio-wrap">
+                <a href="static/img/portfolio/books-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="static/img/portfolio/books-2.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Books 2</a></h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <a href="static/img/portfolio/app-3.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="static/img/portfolio/app-3.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">App 3</a></h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-product">
+              <div class="portfolio-wrap">
+                <a href="static/img/portfolio/product-3.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="static/img/portfolio/product-3.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Product 3</a></h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-branding">
+              <div class="portfolio-wrap">
+                <a href="static/img/portfolio/branding-3.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="static/img/portfolio/branding-3.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Branding 3</a></h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-books">
+              <div class="portfolio-wrap">
+                <a href="static/img/portfolio/books-3.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="static/img/portfolio/books-3.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Books 3</a></h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+
+
+    <!-- ======= Our Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Our Team</h2>
+          <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem dolore earum</p>
+        </div>
+
+        <div class="row gy-4 justify-content-center">
+
+          <div class="col-xl-2 col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <img src="static/img/team/team-1.jpg" class="img-fluid" alt="">
+              <p style="font-family: aria-label;">Nur Cahyo Tio Nugroho</p>
+              <span>Web Development</span>
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-2 col-md-4 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <img src="static/img/team/team-2.jpg" class="img-fluid" alt="">
+              <p style="font-family: aria-label;">Bagus Rifqi Ridho</p>
+              <span>Marketing</span>
+              <div class="social">
+                <a href="https://github.com/bagusrr99" target="_blank"><i class="bi bi-github"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100077920297646" target="_blank"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/runcodebagus/" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/bagusr/" target="_blank"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-2 col-md-4 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <img src="static/img/team/team-3.jpg" class="img-fluid" alt="">
+              <p style="font-family: aria-label;">Latifa Rachma	</p>
+              <span>Content</span>
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-2 col-md-4 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <img src="static/img/team/team-4.jpg" class="img-fluid" alt="">
+              <p style="font-family: aria-label;">Ahmad Malikhul Khakim</p>
+              <span>Accountant</span>
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-4 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <img src="static/img/team/team-4.jpg" class="img-fluid" alt="">
+              <p style="font-family: aria-label;">Faqih Azka Ash Shidqi</p>
+              <span>Accountant</span>
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Our Team Section -->
+
+   
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <div class="content px-xl-5">
+              <h3>Frequently Asked <strong>Questions</strong></h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-8">
+
+            <div class="accordion accordion-flush" id="faqlist" data-aos="fade-up" data-aos-delay="100">
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                    <span class="num">1.</span>
+                    Non consectetur a erat nam at lectus urna duis?
+                  </button>
+                </h3>
+                <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
+                    <span class="num">2.</span>
+                    Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+                  </button>
+                </h3>
+                <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
+                    <span class="num">3.</span>
+                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?
+                  </button>
+                </h3>
+                <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
+                    <span class="num">4.</span>
+                    Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+                  </button>
+                </h3>
+                <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
+                    <span class="num">5.</span>
+                    Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+                  </button>
+                </h3>
+                <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Frequently Asked Questions Section -->
+
+
+    
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container mt-4">
+      <div class="copyright">
+        &copy; Copyright <strong><span>TOGA</span></strong>. All Rights Reserved
+      </div>
+      
+    </div>
+
+  </footer><!-- End Footer -->
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/aos/aos.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/glightbox/js/glightbox.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/purecounter/purecounter_vanilla.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/swiper/swiper-bundle.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/php-email-form/validate.js') }}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+</body>
+
+</html>
