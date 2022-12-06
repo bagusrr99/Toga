@@ -1,0 +1,128 @@
+p1,p2,label,,,
+batuk,pilek,jahe,,b2=jahe,0=batuk
+batuk,nafsu makan,jahe,,b3=kunyit,1=pilek
+batuk,sakit perut,jahe,,b4=temulawak,2=nafsu makan
+batuk,sakit kepala,jahe,,b5=kencur,3=sakit perut
+batuk,perut kembung,jahe,,b6=sirih,4=sakit kepala
+pilek,nafsu makan,jahe,,b7=daun kemangi,5=perut kembung
+pilek,sakit perut,jahe,,b8=sambiloto,6=radang amandel
+pilek,sakit kepala,jahe,,b9=daun binahong,7=asma
+pilek,perut kembung,jahe,,b10=temu ireng,8=sembelit
+nafsu makan,sakit perut,temulawak,,b11=lidah buaya,9=masuk angin
+nafsu makan,sakit kepala,jahe,,b12=daun beluntas,10=sariawan
+nafsu makan,perut kembung,jahe,,b13=kumis kucing,11=radang lambung/maag/nyeri lambung
+sakit perut,sakit kepala,temulawak,,,12=demam/panas
+sakit perut,perut kembung,jahe,,,13=muntah
+sakit kepala,perut kembung,jahe,,,14=bau mulut
+radang amandel,asma,kunyit,,,15=sakit mata
+radang amandel,sembelit,kunyit,,,16=kulit gatal
+asma,sembelit,temulawak,,,17=jerawat
+asma,masuk angin,temulawak,,,18=pendarahan gusi
+asma,sariawan,temulawak,,,19=mimisan
+sembelit,masuk angin,temulawak,,,20=sering sakit(kekebalan tubuh)
+sembelit,sariawan,temulawak,,,21=sering capek(menambah stamina)
+masuk angin,sariawan,temulawak,,,22=kemandulan
+radang lambung/maag/nyeri lambung,demam/panas,kencur,,,23=mencegah infeksi luka(antiseptik)
+radang lambung/maag/nyeri lambung,muntah,kencur,,,24=ejakulasi dini
+radang lambung/maag/nyeri lambung,bau mulut,sirih,,,25=bau badan
+radang lambung/maag/nyeri lambung,sakit mata,sirih,,,26=kencing manis
+demam/panas,muntah,kencur,,,27=tifus
+bau mulut,sakit mata,sirih,,,28=malaria
+kulit gatal,jerawat,sirih,,,29=syphilis
+kulit gatal,pendarahan gusi,sirih,,,30=asam urat
+mimisan,kulit gatal,sirih,,,31=kolesterol
+jerawat,pendarahan gusi,sirih,,,32=diabetes
+jerawat,mimisan,sirih,,,33=sesak nafas
+pendarahan gusi,mimisan,sirih,,,34=anemia
+kecapekan,kemandulan,kemangi,,,35=mempercepat penyembuhan luka
+kecapekan,antiseptik,kemangi,,,36=tekanan darah rendah
+kecapekan,ejakulasi dini,kemangi,,,37=masalah haid
+kecapekan,bau badan,kemangi,,,38=kudis
+kemandulan,antiseptik,kemangi,,,39=cacingan
+kemandulan,ejakulasi dini,kemangi,,,40=rambut rontok
+bau badan,kemandulan,kemangi,,,41=ketombe
+antiseptik,ejakulasi dini,kemangi,,,42=peredaran darah kurang lancar
+antiseptik,bau badan,kemangi,,,43=radang
+ejakulasi dini,bau badan,kemangi,,,44=tekanan darah tinggi
+kencing manis,tifus,sambiloto,,,45=gangguan pencernaan anak
+kencing manis,malaria,sambiloto,,,46=nyeri pinggang
+syphilis,kencing manis,sambiloto,,,
+tifus,malaria,sambiloto,,,
+tifus,syphilis,sambiloto,,,
+malaria,syphilis,sambiloto,,,
+kolesterol,diabetes,binahong,,,
+kolesterol,sesak nafas,binahong,,,
+kolesterol,anemia,binahong,,,
+kolesterol,penyembuhan luka,binahong,,,
+diabetes,sesak nafas,binahong,,,
+diabetes,anemia,binahong,,,
+diabetes,penyembuhan luka,binahong,,,
+sesak nafas,anemia,binahong,,,
+sesak nafas,penyembuhan luka,binahong,,,
+anemia,penyembuhan luka,binahong,,,
+tekanan darah rendah,haid,binahong,,,
+kudis,cacingan,temu hitam,,,
+ketombe,darah kurang lancar,lidah buaya,,,
+ketombe,radang tenggorokan,lidah buaya,,,
+ketombe,darah tinggi,lidah buaya,,,
+darah kurang lancar,radang tenggorokan,lidah buaya,,,
+darah tinggi,darah kurang lancar,lidah buaya,,,
+radang tenggorokan,darah tinggi,lidah buaya,,,
+sakit kepala,masuk angin,temulawak,,,
+batuk,radang amandel,kunyit,,,
+nafsu makan,demam/panas,beluntas,,,
+sakit perut,radang lambung/maag/nyeri lambung,temulawak,,,
+sakit kepala,demam/panas,temulawak,,,
+perut kembung,masuk angin,jahe,,,
+asma,sesak nafas,temu hitam,,,
+sariawan,bau mulut,sirih,,,
+kulit gatal,kudis,sirih,,,
+haid,darah tinggi,binahong,,,
+anemia,tekanan darah rendah,binahong,,,
+rambut rontok,ketombe,lidah buaya,,,
+demam/panas,tifus,sambiloto,,,
+cacingan,pencernaan anak,temu hitam,,,
+sering sakit,haid,binahong,,,
+pendarahan gusi,bau mulut,sirih,,,
+jerawat,kudis,binahong,,,
+asam urat,kolesterol,binahong,,,
+kecapekan,haid,binahong,,,
+sakit kepala,tekanan darah rendah,binahong,,,
+sariawan,pendarahan gusi,sirih,,,
+malaria,kudis,temu hitam,,,
+kulit gatal,syphilis,sambiloto,,,
+mimisan,kecapekan,kemangi,,,
+radang lambung/maag/nyeri lambung,diabetes,kunyit,,,
+haid,nyeri pinggang,kunyit,,,
+nafsu makan,masuk angin,temulawak,,,
+sakit kepala,sariawan,temulawak,,,
+nafsu makan,sariawan,temulawak,,,
+batuk,muntah,kencur,,,
+batuk,demam/panas,kencur,,,
+pilek,radang lambung/maag/nyeri lambung,kencur,,,
+pilek,demam/panas,kencur,,,
+muntah,pilek,kencur,,,
+sakit kepala,radang lambung/maag/nyeri lambung,kencur,,,
+sakit mata,batuk,sirih,,,
+batuk,bau mulut,sirih,,,
+batuk,radang lambung/maag/nyeri lambung,sirih,,,
+kulit gatal,mimisan,sirih,,,
+kecapekan,sering sakit,kemangi,,,
+kolesterol,tekanan darah rendah,binahong,,,
+asam urat,anemia,binahong,,,
+anemia,haid,binahong,,,
+asma,malaria,temu hitam,,,
+nafsu makan,asma,temu hitam,,,
+asma,cacingan,temu hitam,,,
+asma,malaria,temu hitam,,,
+nafsu makan,malaria,temu hitam,,,
+batuk,malaria,temu hitam,,,
+batuk,asma,temu hitam,,,
+penyembuhan luka,darah kurang lancar,lidah buaya,,,
+jerawat,rambut rontok,lidah buaya,,,
+pencernaan anak,nyeri pinggang,beluntas,,,
+demam/panas,pencernaan anak,beluntas,,,
+sering sakit,kecapekan,beluntas,,,
+masuk angin,nyeri pinggang,kumis kucing,,,
+nyeri pinggang,asam urat,kumis kucing,,,
+demam/panas,asam urat,kumis kucing,,,
